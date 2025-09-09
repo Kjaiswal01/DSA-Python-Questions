@@ -14,7 +14,7 @@ for i in range(len(pos)):           # we assume len(pos) == len(neg) here
 print(nums)                         # final rearranged list
 # Output:[5, -3, 10, -1, 6, -10]
 
-# 🕒 Time Complexity :---------------------
+# Time Complexity :---------------------
 # Step 1 (list comprehensions): O(n) + O(n) = O(n)
 # Step 2 (loop): O(n/2) = O(n)
 # Total = O(n)
