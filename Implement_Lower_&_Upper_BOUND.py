@@ -13,7 +13,7 @@ while low <= high:
         high = mid -1
     else:
         low = mid + 1  
-print(lb)     
+print(lb) #-->8    
 
 #  upper Bound -------------------------------------------------
 nums = [1,1,1,3,3,3,5,6,7,7,7,9,9,12,12,12,13]
@@ -29,7 +29,7 @@ while low <= high:
         high = mid -1
     else:
         low = mid + 1  
-print(ub)      
+print(ub)   #---> 13   
 
 
 
